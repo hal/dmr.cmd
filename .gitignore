@@ -6,6 +6,7 @@
 .project
 .classpath
 .wakatime-project
+dependency-reduced-pom.xml
 out
 target
 gwt-unitCache
