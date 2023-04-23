@@ -26,12 +26,12 @@
     <parent>
         <groupId>org.jboss</groupId>
         <artifactId>jboss-parent</artifactId>
-        <version>18</version>
+        <version>39</version>
     </parent>
 
     <groupId>org.jboss.hal</groupId>
     <artifactId>dmr-cmd</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>DMR command line</name>
     <description>DMR command line tools</description>
     <packaging>jar</packaging>
@@ -60,10 +60,10 @@
     </licenses>
 
     <properties>
-        <jboss.dmr.version>1.3.0.Final</jboss.dmr.version>
+        <jboss.dmr.version>1.6.1.Final</jboss.dmr.version>
 
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -101,17 +101,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>jboss-nexus</id>
-            <url>http://repository.jboss.org/nexus/content/groups/public</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-    </repositories>
 </project>
